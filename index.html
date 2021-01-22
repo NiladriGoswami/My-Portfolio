@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  
+
+    <!--Bootstrap Js-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!--My CSS-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--Font Awesome-->
+    <script src="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <title>::Portfolio::</title>
+
+    <!--Importing SweetAlert library-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <!-- JS function for Social media buttons redirecting-->
+    <script>
+        function GoTo_linkedin(){
+            location.href = "https://www.linkedin.com/in/niladri-goswami-0972a2118/";
+        }
+
+        function GoTo_github(){
+            location.href = "https://github.com/NiladriGoswami";
+        }
+
+        function GoTo_twitter(){
+            location.href = "https://twitter.com/NiladriGoswami8";
+        }
+
+        function GoTo_email(){
+            location.href = "mailTo: niladrig007@gmail.com";
+        }
+
+        function About(){
+            location.href ="#About";
+        }
+    </script>
+    <!--End JS function for Social media buttons redirecting-->
+
+    <!--Email Validations-->
+    
+    <!--End Email Validation-->
+</head>
+<body>
+    <!--collapsible Navigation Bar-->
+    <!--<div class="container-fluid"> -->
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="container-fluid">
+                        <span><img src="images/code.png" alt="code_icon" id="logo">
+                            <a class="navbar-brand" href="index.html" style="color: rgb(8, 216, 171);">Portfolio</a>
+                        </span>      
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Social_Media">Social Media</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <li><a href="https://drive.google.com/file/d/17PXYi_UbL47Ussajp8V73s5a7KDYHfv7/view?usp=sharing">Resume</a></li>
+                </ul>
+                    <!--<p class="navbar-text">Write some text</p> -->
+                </div>
+            </div>
+        </nav>
+   <!--</div>--> 
+    <!--End collapsible Navigation Bar-->
+    <!--Banner-->
+    <!--Jumbotron-->
+    <div class="container-fluid" style="text-align:center;" id="Home">
+        <div class="jumbotron" id="jumbo-container1">
+            <img src="images/programming2.jpg" alt="pragramming2" style="width: 100%; height: 60%; opacity: 0.8;">
+            <div id="jumbo-container2">
+            <h2 class="display-4">Welcome!</h2>
+            <p class="lead" style="font-size: 2vw;">I'm <span style="color: rgb(8, 216, 171);">Niladri Goswami</span>, a post graduate passout fresher.</p> 
+                <p style="font-size: 2vw;">Recently looking for job oppurtunities. Based on Bangalore, India.</p>
+                
+             <p style="font-size: 2vw;"><button type="button" class="btn1 success1" onclick="About()" style="font-size: 16px;">Know more</button></p>
+            </div>
+          </div>
+    </div>
+    <!--End Jumbotron-->
+    <!--End Banner-->
+    <section>
+                <!--About Section-->
+                
+                    <div class="container-fluid" id="About">  
+                            <div class="container" style="background-color: rgb(253, 253, 253); border-radius: 10px;">
+                                <h2 style="color: rgb(8, 216, 171);">About</h2>
+                                <!--Image-->
+                                <a target="_blank" href="images/My_pic.jpg">
+                                    <img src="images/My_pic.jpg" alt="My_pic" style="width:150px;border: 1px solid #ddd;
+                                    border-radius: 4px;
+                                    padding: 5px;
+                                    width: 150px;" id="My_Pic">
+                                </a>
+                                <!--End Image-->
+                                <p style="padding-left: 30px;padding-top: 5px; font-weight: bold;">Niladri Goswami</p>
+                                <br>
+                                <div>
+                                    <img src="images/programmer-1.jpg" style="width: 150px; height: auto; float: right;padding-top: 30px; padding-bottom: 20px;" />
+                                    <p style="padding: 40px 10px 40px 10px; font-size: large;">Hello, I'm Niladri Goswami, a post Graduate (MCA) passout in the year 2019 (fresher).
+                                        I build things on web. And looking forward to get some hand's on experience in IT companies and software industries as a web developer or 
+                                        software developer/Engineer. Recently, I moved in Bangalore  and from the last couple of months I have been working on my skill's and actively 
+                                        looking for oppurtunities to grab a job in IT industry.
+                                     </p>
+                                </div>
+                                    <div>
+                                        <img src="images/programmer-2.jpg" style="width: 250px; height: auto; float: left; padding-right: 2px;padding-top: 30px; padding-bottom: 20px;" />
+                                        <p style="padding: 30px 10px 60px 20px; font-size: large;">Recently, I found interest in Web development. So, while looking for job oppurtunities,
+                                             parallely I'm also working on my web development skills. Starting form very basics of HTML5, CSS3 & Bootstrap so that inorder to understand the concept
+                                              of webpage structuring and styling, followed by Javascript (ES5 & ES6) which helps me to gain knowledge in dynamic webpage. Along with that in 
+                                              the Back-End part, for database management I have grasped basic knowledge in SQL/MYSQL database, followed by server side scripting language i.e. PHP.
+                                            However, unable to bound my curiosity of gaining knowledge, learnt basics of a version control system i.e. Git & Github, followed by gaining basic 
+                                            knowledge in JSON data format & RestAPI and did some projects related to the above skill that I've mentioned, which you can found in the Project Section.</p>
+                                    </div>
+                            </div>
+                            <br>
+                    </div>
+                
+                <!--End About Section-->
+
+                <!--Social Media Section-->
+                <div class="container-fluid" id="Social_Media">  
+                        <div class="container" style="background-color: rgb(253, 253, 253); border-radius: 10px;">
+                            <h2 style="color: rgb(8, 216, 171);">Social Media</h2>
+                            <br>
+                            <div class="container">
+                            <h3 style="padding-left: 40px;">Let's be friends in :</h3>
+                                    <div class="container" style="text-align: center;">
+                                        <button class="btn success" onclick="GoTo_linkedin()"><i class="fab fa-linkedin"></i> Linkedin</button>
+                                        <button class="btn success" onclick="GoTo_github()"><i class="fab fa-github"></i> Github</button>
+                                        <button class="btn success" onclick="GoTo_twitter()"><i class="fab fa-twitter"></i> Twiter</button>
+                                        <button class="btn success" onclick="GoTo_email()"><i class="glyphicon glyphicon-envelope"></i> Email</button>
+                                    </div>
+                                    <br>
+                                
+                            </div>
+                        </div>
+                </div>
+                <br>
+                <!--End Social Media Section-->
+
+                <!--Projects Section-->
+                <div class="container-fluid" id="Projects">
+                        <div class="container" style="background-color: rgb(253, 253, 253); border-radius: 10px;">
+                            <h2 style="color: rgb(8, 216, 171);">Projects</h2>
+                            <br>
+                            <!--Project Cards-->
+                            <div class="container">
+                                <div class="row">
+                                    <!--Card 1-->
+                                    <div class="col-sm-4">
+                                        <div class="card" style="width: 350px;">
+                                            <img class="card-img-top" src="images/E-commerce.jpg" alt="E-commerce"  style="width: 350px; height: 200px;">
+                                            <div class="card-body">
+                                              <h4 class="card-title"> &nbsp;Online shopping system</h4>
+                                              <p class="card-text">Its an online E-Commerce web application for shopping online. UI design,
+                                                  Back-end development, html5, css3, javascript, PHP and MYSQL.·</p>
+                                              <a href="https://github.com/NiladriGoswami/CyberShoppy" class="btn-sm btn-info card-links">Read more</a>
+                                              <a href="https://cybershoppy.online/cyber/cyber_shoppe/index.php" class="btn-sm btn-warning card-links">Go live</a>
+                                            </div>
+                                            <br>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <!--End Crad 1-->
+
+                                    <!--Card 2-->
+                                    <div class="col-sm-4">
+                                        <div class="card" style="width: 350px;">
+                                            <img class="card-img-top" src="images/Dice-game.jpg" alt="Dice-game"  style="width: 350px; height: 200px;">
+                                            <div class="card-body">
+                                              <h4 class="card-title"> &nbsp;Dice Game</h4>
+                                              <p class="card-text">The Dice Game a.k.a Pig Game is basically a simple game designed for two player's. 
+                                                The UI design is done using bootstrap, HTML5, CSS3, JS.</p>
+                                              <a href="https://github.com/NiladriGoswami/Dice-Game" class="btn-sm btn-info">Read more</a>
+                                              <a href="https://jolly-lovelace-2f64bd.netlify.app/" class="btn-sm btn-warning">Go live</a>
+                                            </div>
+                                            <br>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <!--End Crad 2-->
+
+                                    <!--Card 3-->
+                                    <div class="col-sm-4">
+                                        <div class="card" style="width: 350px;">
+                                            <img class="card-img-top" src="images/Online-voting.jpg" alt="Online-voting"  style="width: 350px; height: 200px;">
+                                            <div class="card-body">
+                                              <h4 class="card-title"> &nbsp;Online voting system</h4>
+                                              <p class="card-text">It is designed to select the winner of any election, 
+                                                  by ignoring the manual counting of the polls for each candidate.</p>
+                                              <a href="#" class="btn-sm btn-info">Read more</a>
+                                              <a href="#" class="btn-sm btn-warning">Go live</a>
+                                            </div>
+                                            <br>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <!--End Crad 3-->
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <br>
+                <!--End Projects Section-->
+
+                <!--Contact Section-->
+                <div class="container-fluid" id="Contact"> 
+                        <div class="container" style="background-color: rgb(253, 253, 253); border-radius: 10px;">
+                            <h2 style="color: rgb(8, 216, 171);">Contact</h2>
+                            <!--Phone number-->
+                            <div class="container">
+                                <h4 style="padding-left: 40px;">Phone number: </h4>
+                                <p style="padding-left: 100px;"> 7478497007, 8431543506</p>
+                                
+                            </div>
+                            <!--End Phone number-->
+                            <hr>
+                            <!--Contact Form-->
+                            <div class="container">
+                                <p style="font-size: large;">For any queries you can send your 
+                                    views through the contact form below.</p>
+                            </div>
+                            <div class="col-md-6" style="padding-left: 40px; padding-bottom: 10px;">
+                                <form action="mail_handler.php" class="form-horizontal" method="POST">
+                                        <div class="form-group">
+                                            <label for="name" class="control-label">Name:</label>
+                                            <input type="name" class="form-control" id="name" placeholder="Enter name" name="name" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="email" class="control-label">Email:</label>
+                                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="comment">Comment:</label>
+                                            <textarea class="form-control" rows="5" id="comment" name="comment" placeholder="Write your views here..." required></textarea>
+                                        </div>
+                                        <button type="submit" name="submit" class="btn success">Submit</button>
+                                </form>
+                            </div>
+                            <!--End Contact Form-->
+                        </div>
+                    </div>
+                <!--End Contact Section-->
+</section>
+    <!--Footer-->
+    <footer id="footer">
+        <p >© 2020 Portfolio. All rights reserved | Designed by<a href="index.html" style="text-decoration: none;color: rgb(8, 216, 171);">Niladri Goswami</a></p>
+    </footer>
+    <!--End Footer-->
+    
+
+</body>
+</html>

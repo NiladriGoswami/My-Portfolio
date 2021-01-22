@@ -1,0 +1,167 @@
+
+
+body{
+   /* background: #1f2235;*/
+   background: rgb(236, 236, 236);
+    font-family: "Baloo Tama 2", cursive;
+}
+
+/*font for heading*/
+.m-heading {
+    font-family: "Roboto Slab", serif;
+    
+}
+
+#nav-bar1{
+    background-color: rgb(29, 35, 51);
+}
+
+.navbar-brand{
+    font-size: xx-large;
+}
+
+.navbar-nav{
+    padding-left: 35px;
+}
+
+.navbar-header{
+    padding-left: 5px;
+}
+
+#logo{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.btn-success{
+    border-radius: 15px;
+}
+
+/*Banner text-overlay */
+#jumbo-container1{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+#jumbo-container2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0px;
+  padding: 0px;
+}
+/*End Banner text-overlay*/
+
+/*footer*/
+#footer{
+    background-color: rgb(39, 39, 39);
+    text-align: center;
+    color: white;
+    margin: 20px 0px 0px 0px;
+    padding: 20px 0px 5px 0px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+/*btn success*/
+.btn {
+    border: 2px solid rgb(8, 216, 171);
+    background-color: white;
+    color: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .success {
+    border-color:rgb(8, 216, 171);
+    color:rgb(8, 216, 171);
+  }
+
+  .success:hover {
+    background-color:rgb(8, 216, 171);
+    color: white;
+  }
+  /*End btn success*/
+
+  /*btn1 success1*/
+  .btn1 {
+    border-radius: 25px;
+    border: 2px solid rgb(17, 245, 195);
+    background-color: inherit;
+    color: none;
+    padding: 14px 28px;
+    font-size: 26px;
+    cursor: pointer;
+  }
+
+  .success1 {
+    border-color:rgb(8, 216, 171);
+    color:rgb(8, 216, 171);
+  }
+
+  .success1:hover {
+    background-color:rgb(8, 216, 171);
+    color: white;
+  }
+  /*End btn1 success1*/
+
+  /*Project Cards*/
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  .card-text{
+    word-wrap: break-word;
+    padding: 5px;
+  }
+
+  .card-links{
+        text-decoration: none;
+  }
+
+  a{
+      padding: 5px;
+  }
+  /*End Project Cards*/
+
+  /*Image Thumbnail*/
+  #My_Pic.img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+#My_pic.img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+  /*End Image Thumbnail*/
+
+/*---smooth scrolling---*/
+html{
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
+
+/*About section clear-fix*/
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* End About section clear-fix*/
+  
